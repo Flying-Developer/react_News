@@ -1,2 +1,3 @@
-# react_News
-Created with CodeSandbox
+# React for Beginners
+
+Learning React From Zero to Ninja

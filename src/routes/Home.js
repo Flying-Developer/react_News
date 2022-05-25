@@ -7,7 +7,7 @@ function Home() {
   const [techs, setTechs] = useState([]);
   const getMovies = async () => {
     const json = await (
-      await fetch("https://inshortsapi.vercel.app/news?category=startup")
+      await fetch("https://inshorts-api.herokuapp.com/news?category=startup")
     ).json();
     console.log(json);
     setTechs(json.data);
